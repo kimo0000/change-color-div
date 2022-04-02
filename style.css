@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none
+}
+
+body {
+    font-family: 'Send Flowers', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 60%;
+    height: 500px;
+    max-width: 400px;
+    margin: 30px auto;
+    position: relative;
+}
+
+.btn {
+    margin-bottom: 20px;
+    padding: 5px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    cursor: grab;
+}
+
+.div_color {
+   width: 200px;
+   height: 200px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
